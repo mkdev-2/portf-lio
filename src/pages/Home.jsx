@@ -15,7 +15,8 @@ export default function Home() {
     socialBtns,
     brands,
     about,
-    // experience,
+    hardSkills,
+    softSkills,
     projects,
     contact,
   } = HomePagdData;
@@ -24,7 +25,8 @@ export default function Home() {
       <Hero data={hero} socialData={socialBtns} />
       <Brands data={brands} />
       <About data={about} />
-      {/* <Experience data={experience} /> */}
+      <Experience hardSkills={hardSkills} softSkills={softSkills} />
+
       <Projects data={projects} />
       <Contact data={contact} socialData={socialBtns} />
     </>

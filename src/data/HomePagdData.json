@@ -49,8 +49,8 @@
   "about": {
     "imgSrc": "/images/about-banner.jpg",
     "miniTitle": "Sobre Mim",
-    "title": "Disponível para projetos de <span>Desenvolvimento Full Stack</span>",
-    "description": "Sou um desenvolvedor apaixonado por novos desafios, com experiência em PHP, Laravel, React, Vue.js e mais. Sempre em busca de inovação e qualidade, transformo ideias em soluções reais.",
+    "title": "Profissional, <span>Versátil</span> e Executor",
+    "description": "Sou um desenvolvedor apaixonado por novos desafios, com experiência em PHP, Laravel, React, Vue.js e mais. Sempre em busca de inovação e qualidade, transformo ideias em soluções reais. Ao longo da minha jornada, já estive diversas vezes atuando como líder (gerente de TI e líder de projetos), mas também como executor, lidando e trabalhando em equipe.",
     "funfacts": [
       {
         "title": "Projetos Entregues",
@@ -225,22 +225,68 @@
       }
     ]
   },
-  "experience": {
-    "sectionHeading": {
-      "miniTitle": "Experiência",
-      "title": "Minha <span>Experiência</span> Profissional"
+  
+    "hardSkills": {
+      "sectionHeading": {
+        "miniTitle": "Habilidades",
+        "title": "Hard Skills"
+      },
+      "allExperience": [
+        {
+          "designation": "Desenvolvedor Full Stack",
+          "jobType": "Experiência em PHP, Laravel, React e Vue.js."
+        },
+        {
+          "designation": "Gestão de TI",
+          "jobType": "Liderança e gerenciamento de infraestrutura de servidores."
+        },
+        {
+          "designation": "DevOps",
+          "jobType": "Implementação de pipelines CI/CD, AWS e automação de processos."
+        },
+        {
+          "designation": "Bancos de Dados",
+          "jobType": "MySQL, otimização de consultas e segurança."
+        },
+        {
+          "designation": "Infraestrutura Linux",
+          "jobType": "Gerenciamento de servidores e infraestrutura."
+        },
+        {
+          "designation": "Integração de Tecnologias",
+          "jobType": "AWS, Node.js, Git, práticas ágeis."
+        }
+      ]
     },
-    "allExperience": [
-      {
-        "designation": "Desenvolvedor Full Stack",
-        "company": "Freelancer",
-        "duration": "JAN 2016 - JUN 2024",
-        "jobType": "Tempo Integral",
-        "companyTitle": "Sobre a Empresa",
-        "companyDescription": "Desenvolveu e gerenciou projetos web usando Laravel, PHP, React e Vue.js, liderando equipes e coordenando diretamente com clientes para garantir a entrega no prazo e dentro do orçamento. Implementou soluções personalizadas, práticas de DevOps e automação de processos com AWS e CI/CD, aumentando a eficiência e a base de clientes em 50%."
-      }
-    ]
-  },
+    "softSkills": {
+      "sectionHeading": {
+        "miniTitle": "Habilidades Interpessoais",
+        "title": "Soft Skills"
+      },
+      "allExperience": [
+        {
+          "designation": "Liderança",
+          "jobType": "Experiência em liderar equipes multifuncionais."
+        },
+        {
+          "designation": "Empreendedorismo",
+          "jobType": "10 anos de experiência como empreendedor."
+        },
+        {
+          "designation": "Comunicação",
+          "jobType": "Capacidade de coordenar diretamente com clientes e equipes."
+        },
+        {
+          "designation": "Resiliência",
+          "jobType": "Superação de desafios pessoais e profissionais."
+        },
+        {
+          "designation": "Trabalho em Equipe",
+          "jobType": "Experiência em projetos colaborativos e gestão de equipes."
+        }
+      ]
+    },
+  
   "testimonial": {
     "sectionHeading": {
       "miniTitle": "Testemunhos",
@@ -263,7 +309,7 @@
     "contactImg": "/images/contact-us.jpg",
     "contactInfo": [
       { "title": "Envie um e-mail", "email": "mvcas95@gmail.com" },
-      { "title": "Ligue para mim", "tel": "+55 99 99841-6779" }
+      { "title": "", "tel": "" }
     ]
   }
 }
