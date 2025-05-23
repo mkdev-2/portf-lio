@@ -21,12 +21,18 @@ export default function Home() {
 
   console.log('Projects data from Home:', projects);
   
+  // Garantir que projects tem a estrutura correta
+  const projectsData = {
+    sectionHeading: projects.sectionHeading,
+    allProjects: projects.allProjects
+  };
+  
   return (
     <>
       <Hero data={hero} socialData={socialBtns} />
       <About data={about} />
       <Experience hardSkills={hardSkills} softSkills={softSkills} />
-      <Projects data={projects} />
+      <Projects data={projectsData} />
       <Contact data={contact} socialData={socialBtns} />
     </>
   );
