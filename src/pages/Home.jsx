@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import About from '../components/About';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
@@ -7,21 +7,6 @@ import Hero from '../components/Hero';
 import HomePagdData from '../data/HomePagdData.json';
 
 export default function Home() {
-  const [pageData, setPageData] = useState(HomePagdData);
-
-  useEffect(() => {
-    // Força o recarregamento dos dados ignorando o cache
-    fetch('/data/HomePagdData.json?v=' + new Date().getTime())
-      .then(response => response.json())
-      .then(data => {
-        setPageData(data);
-        console.log('Dados atualizados:', data);
-      })
-      .catch(error => {
-        console.error('Erro ao carregar dados:', error);
-      });
-  }, []);
-
   const {
     hero,
     socialBtns,
@@ -30,22 +15,13 @@ export default function Home() {
     softSkills,
     projects,
     contact,
-  } = pageData;
-
-  console.log('Projects data from Home:', projects);
-  
-  // Garantir que projects tem a estrutura correta
-  const projectsData = {
-    sectionHeading: projects.sectionHeading,
-    allProjects: projects.allProjects
-  };
-  
+  } = HomePagdData;
   return (
     <>
       <Hero data={hero} socialData={socialBtns} />
       <About data={about} />
       <Experience hardSkills={hardSkills} softSkills={softSkills} />
-      <Projects data={projectsData} />
+      <Projects data={projects} />
       <Contact data={contact} socialData={socialBtns} />
     </>
   );
