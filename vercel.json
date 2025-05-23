@@ -1,9 +1,20 @@
 {
-    "build": {
-      "env": {
-        "NODE_VERSION": "16.x",
-        "NODE_OPTIONS": "--openssl-legacy-provider"
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/node",
+      "config": {
+        "nodeVersion": "18.x"
       }
     }
-  }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
+}
+  
   
