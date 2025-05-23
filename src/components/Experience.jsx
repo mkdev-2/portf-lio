@@ -1,6 +1,5 @@
 import React from 'react';
 import SectionHeading from './SectionHeading';
-import Slider from 'react-slick';
 import { Icon } from '@iconify/react';
 
 export default function Experience({ hardSkills, softSkills }) {
@@ -10,34 +9,6 @@ export default function Experience({ hardSkills, softSkills }) {
   if (!hardSkills || !softSkills) {
     return <p>Dados não disponíveis</p>;
   }
-  
-  const settings = {
-    dots: false,
-    arrows: true,
-    infinite: false,
-    autoplay: false,
-    autoplaySpeed: 4000,
-    speed: 800,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
   
   // Ícones para as diferentes categorias de habilidades
   const skillIcons = {

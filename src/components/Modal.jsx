@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 export default function Modal({ modalData }) {
   const { thumbUrl, details } = modalData;
-  const { title, description, type, langages, platform, country, url } = details;
+  const { title, description, type, langages, platform, country } = details;
   
   // Tech stack icons mapping
   const techIcons = {
