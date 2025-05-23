@@ -1,10 +1,11 @@
+
 {
   "hero": {
-    "imgUrl": "/images/home-banner.jpg",
+    "imgUrl": "/images/home-banner.png",
     "name": "Marcos Vinicius",
     "heading": "Desenvolvedor",
     "typingText": ["Full Stack", 1500, "Laravel", 1500],
-    "description": "Com 9 anos de experiência, sou apaixonado por transformar ideias em soluções tecnológicas robustas, sempre buscando qualidade e inovação.",
+    "description": "Com 8 anos de experiência, sou apaixonado por transformar ideias em soluções tecnológicas robustas, sempre buscando qualidade e inovação.",
     "btnText": "Entre em contato",
     "btnUrl": "contactus"
   },
@@ -15,9 +16,9 @@
       "href": "https://instagram.com/marcosviniciusc"
     },
     { 
-      "icon": "fa-brands:github", 
-      "iconBgClass": "github", 
-      "href": "https://github.com/mkdev-2" 
+      "icon": "fa-brands:bitbucket", 
+      "iconBgClass": "bitbucket", 
+      "href": "https://bitbucket.org/likedeveloper/workspace/repositories/"
     },
     {
       "icon": "fa-brands:linkedin-in",
@@ -33,52 +34,16 @@
       "icon": "faPhp" 
     },
     {
-      "icon": "faJs"
-    },
-    {
-      "icon": "faReact" 
-    },
-    {
-      "icon": "faVuejs" 
-    },
-    {
-      "icon": "faNode"
-    },
-    {
-      "icon": "faPython"
-    },
-    {
-      "icon": "faDocker"
-    },
-    {
-      "icon": "faGithub"
-    },
-    {
-      "icon": "faAws"
-    },
-    {
-      "icon": "faBootstrap"
-    },
-    {
-      "icon": "faSass"
-    },
-    {
       "icon": "faHtml5" 
     },
     {
       "icon": "faCss3Alt" 
     },
     {
-      "icon": "faWordpress"
+      "icon": "faReact" 
     },
     {
-      "icon": "faAngular"
-    },
-    {
-      "icon": "faGitAlt"
-    },
-    {
-      "icon": "faNpm"
+      "icon": "faVuejs" 
     }
   ],
   "about": {

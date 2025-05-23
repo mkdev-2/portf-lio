@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf build && CI=false react-scripts build && cp -r public/images build/",
+    "build": "rm -rf build && CI=false react-scripts build && cp -r public/images build/ && mkdir -p build/data && cp src/data/HomePagdData.json build/data/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
