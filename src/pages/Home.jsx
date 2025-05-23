@@ -7,6 +7,8 @@ import Hero from '../components/Hero';
 import HomePagdData from '../data/HomePagdData.json';
 
 export default function Home() {
+  console.log('HomePagdData:', HomePagdData);
+  
   const {
     hero,
     socialBtns,
@@ -16,6 +18,9 @@ export default function Home() {
     projects,
     contact,
   } = HomePagdData;
+
+  console.log('Projects data from Home:', projects);
+  
   return (
     <>
       <Hero data={hero} socialData={socialBtns} />

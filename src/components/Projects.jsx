@@ -4,6 +4,9 @@ import SectionHeading from './SectionHeading';
 import Modal from './Modal';
 
 export default function Projects({ data }) {
+  console.log('Projects data:', data);
+  console.log('Projects allProjects:', data?.allProjects);
+  
   const [modal, setModal] = useState(false);
   const [modalType, setModalType] = useState('image');
   const [modalData, setModalData] = useState({});
