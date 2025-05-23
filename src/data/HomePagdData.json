@@ -110,132 +110,278 @@
     },
     "allProjects": [
       {
-        "thumbUrl": "/images/screenshot-voolivre.jpg",
-        "title": "Campeonato Voo Livre",
-        "subTitle": "Web Design, Esportes",
+        "thumbUrl": "/images/screenshot-multimarcas.jpg",
+        "title": "Multimarcas",
+        "subTitle": "Sistema de Gestão, Consórcios",
         "details": {
-          "title": "Website para Campeonato de Voo Livre",
-          "description": "Criação de um site para o Campeonato de Voo Livre, com informações sobre as competições, resultados e inscrições.",
-          "type": "Website",
-          "langages": "HTML, CSS, JS",
-          "platform": "Vue.js",
-          "country": "Brasil",
-          "url": "http://campeonatovoolivre.com.br"
+          "title": "Sistema de Gestão de Contratos para Consórcios",
+          "description": "Sistema completo para gestão de contratos de consórcio com assinatura digital, gestão de clientes, documentos e propostas. Inclui histórico de alterações, auditoria completa e políticas de segurança RLS. Desenvolvido com React, TypeScript e Supabase.",
+          "type": "Sistema Web",
+          "langages": "React, TypeScript, Supabase, TailwindCSS",
+          "platform": "React + Supabase",
+          "country": "Brasil"
         }
       },
       {
-        "thumbUrl": "/images/screenshot-vozeduca.jpg",
-        "title": "Cobrança Educacional",
-        "subTitle": "Web Design, App Design",
+        "thumbUrl": "/images/screenshot-contarapida.jpg",
+        "title": "Conta Rápida",
+        "subTitle": "SaaS, Analytics",
         "details": {
-          "title": "Website para Plataforma de Cobrança Educacional",
-          "description": "Desenvolvimento de uma plataforma focada na gestão de inadimplência educacional, utilizando PHP, HTML, CSS e JS.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "Laravel",
-          "country": "Brasil",
-          "url": "https://www.vozeduca.com.br/"
+          "title": "Sistema SaaS de Gestão de Indicadores",
+          "description": "Plataforma SaaS para análise de performance e KPIs empresariais, integrada com ERPs. Dashboard interativo com análise de vendedores, gestão financeira, controle orçamentário e relatórios personalizados. Desenvolvido com Next.js 14, TypeScript, Prisma ORM e PostgreSQL.",
+          "type": "SaaS",
+          "langages": "Next.js, TypeScript, Prisma, PostgreSQL",
+          "platform": "Next.js + React",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/screenshot-voolivre.jpg",
+        "title": "Voo Livre",
+        "subTitle": "Esportes, Competição",
+        "details": {
+          "title": "Sistema de Gestão de Campeonatos",
+          "description": "Plataforma completa para gestão de campeonatos de voo livre, com sistema de inscrições, ranking ao vivo, upload de tracks e resultados em tempo real. Interface moderna com mapas interativos e visualização de rotas.",
+          "type": "Sistema Web",
+          "langages": "Vue.js, Node.js, MongoDB",
+          "platform": "Vue.js + Node.js",
+          "country": "Brasil"
         }
       },
       {
         "thumbUrl": "/images/screenshot-unipecas.jpg",
-        "title": "Unipecas",
-        "subTitle": "Web Design, Agronegócio",
+        "title": "Unipeças",
+        "subTitle": "E-commerce, Peças",
         "details": {
-          "title": "Website Institucional para Unipecas",
-          "description": "Desenvolvimento de um site institucional para a Unipecas, destacando informações sobre a instituição e seus serviços.",
-          "type": "Website",
-          "langages": "HTML, CSS, JS, PHP",
-          "platform": "Laravel",
-          "country": "Brasil",
-          "url": "http://unipecasma.com.br"
+          "title": "E-commerce de Peças Agrícolas",
+          "description": "Plataforma especializada em comercialização de peças agrícolas com catálogo técnico detalhado, busca por modelo de máquina e integração com fornecedores. Sistema de cotação em tempo real e rastreamento de pedidos.",
+          "type": "E-commerce",
+          "langages": "Laravel, Vue.js, PostgreSQL",
+          "platform": "Laravel + Vue.js",
+          "country": "Brasil"
         }
       },
       {
         "thumbUrl": "/images/screenshot-lcm.jpg",
-        "title": "Laboratório",
-        "subTitle": "Web Design, Saúde",
+        "title": "LCM Laboratório",
+        "subTitle": "Saúde, Laboratório",
         "details": {
-          "title": "Website para Laboratório de Análises Clínicas",
-          "description": "Desenvolvimento de um site informativo para o Laboratório Cortez Moreira, focado em destacar serviços e facilitar o agendamento de exames.",
-          "type": "Website",
-          "langages": "HTML, CSS, JS",
-          "platform": "Laravel",
-          "country": "Brasil",
-          "url": "http://labcortezmoreira.com.br"
+          "title": "Portal de Resultados Laboratoriais",
+          "description": "Sistema web para laboratório de análises clínicas com área do paciente, laudos digitais e integração com sistemas laboratoriais. Inclui agendamento online, notificações automáticas e histórico completo de exames.",
+          "type": "Portal",
+          "langages": "Laravel, Vue.js, MySQL",
+          "platform": "Laravel + Vue.js",
+          "country": "Brasil"
         }
       },
       {
         "thumbUrl": "/images/screenshot-hotelpresidenteitz.jpg",
-        "title": "Hotel",
-        "subTitle": "Web Design, Hotelaria",
+        "title": "Hotel Presidente",
+        "subTitle": "Hotelaria, Reservas",
         "details": {
-          "title": "Website para Hotel Presidente",
-          "description": "Criação de um site moderno e responsivo para o Hotel Presidente, com foco em reservas online e apresentação dos serviços e acomodações.",
-          "type": "Website",
-          "langages": "HTML, CSS, JS",
-          "platform": "Laravel",
-          "country": "Brasil",
-          "url": "http://hotelpresidenteitz.com.br"
+          "title": "Sistema de Gestão Hoteleira",
+          "description": "Plataforma completa para gestão hoteleira com reservas online, controle de ocupação, check-in/out digital e integração com canais de venda. Dashboard administrativo com relatórios gerenciais e gestão de tarifas dinâmicas.",
+          "type": "Sistema Web",
+          "langages": "Laravel, React, MySQL",
+          "platform": "Laravel + React",
+          "country": "Brasil"
         }
       },
       {
         "thumbUrl": "/images/screenshot-gruponovaluz.jpg",
-        "title": "E-commerce Varejo",
-        "subTitle": "Web Design, Comércio",
+        "title": "Grupo Nova Luz",
+        "subTitle": "Varejo, Gestão",
         "details": {
-          "title": "Website Corporativo para Grupo Nova Luz",
-          "description": "Desenvolvimento de um site corporativo para o Grupo Nova Luz, com foco na apresentação dos serviços e soluções oferecidas pela empresa.",
-          "type": "Website",
-          "langages": "HTML, CSS, JS",
-          "platform": "Custom",
-          "country": "Brasil",
-          "url": "http://gruponovaluz.com.br"
-        }
-      },
-      {
-        "thumbUrl": "/images/screenshot-netfacil.jpg",
-        "title": "Provedor de Internet",
-        "subTitle": "Web Design, Provedor de Internet",
-        "details": {
-          "title": "Website para Provedor de Internet",
-          "description": "Criação de um site moderno e responsivo para a NetFácil Banda Larga, destacando pacotes de internet e suporte ao cliente.",
-          "type": "Website",
-          "langages": "HTML, CSS, JS",
-          "platform": "Laravel",
-          "country": "Brasil",
-          "url": "https://netfacilbandalarga.com.br"
-        }
-      },
-      {
-        "thumbUrl": "/images/screenshot-est.jpg",
-        "title": "Instituição de Ensino",
-        "subTitle": "Web Design, Educação",
-        "details": {
-          "title": "Website para Escola Santa Teresinha",
-          "description": "Desenvolvimento de um site educacional para a Escola Santa Teresinha, destacando as atividades escolares e facilitando o acesso a informações para pais e alunos.",
-          "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "Wordpress",
-          "country": "Brasil",
-          "url": "http://esantateresinha.com.br"
+          "title": "Portal Corporativo e E-commerce",
+          "description": "Portal corporativo com área administrativa completa, e-commerce B2B, gestão de pedidos e integração com ERP. Sistema de múltiplas lojas com gestão centralizada e relatórios consolidados.",
+          "type": "Portal",
+          "langages": "Laravel, Vue.js, PostgreSQL",
+          "platform": "Laravel + Vue.js",
+          "country": "Brasil"
         }
       },
       {
         "thumbUrl": "/images/screenshot-extrapecas.jpg",
-        "title": "Loja de Autopeças",
-        "subTitle": "Web Design, App Design",
+        "title": "Extra Peças",
+        "subTitle": "E-commerce, Autopeças",
         "details": {
-          "title": "Website para Loja de Autopeças",
-          "description": "Desenvolvimento de um site para uma loja especializada em autopeças, com foco na linha pesada. O site utiliza HTML, CSS, JS, e Laravel para uma presença online robusta e eficiente.",
+          "title": "E-commerce de Autopeças",
+          "description": "Plataforma especializada em venda de peças automotivas com catálogo técnico, busca por modelo de veículo e compatibilidade. Sistema de recomendação inteligente e integração com distribuidores.",
+          "type": "E-commerce",
+          "langages": "Laravel, React, MySQL",
+          "platform": "Laravel + React",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/screenshot-netfacil.jpg",
+        "title": "Net Fácil",
+        "subTitle": "Telecom, ISP",
+        "details": {
+          "title": "Portal de Provedor de Internet",
+          "description": "Sistema completo para provedores de internet com área do cliente, suporte técnico online, monitoramento de consumo e pagamentos. Inclui app mobile para técnicos e central de atendimento integrada.",
+          "type": "Portal",
+          "langages": "Laravel, Vue.js, PostgreSQL",
+          "platform": "Laravel + Vue.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/DGL_Dashboard.png",
+        "title": "DGL Dashboard",
+        "subTitle": "Dashboard, Analytics",
+        "details": {
+          "title": "Dashboard de Análise de Performance",
+          "description": "Dashboard empresarial sofisticado com interface moderna em tons escuros. Apresenta métricas em tempo real, gráficos interativos de vendas, análise de desempenho por região e KPIs financeiros. Inclui visualizações de dados em cards, gráficos de linha e barras com animações suaves.",
+          "type": "Dashboard",
+          "langages": "React, TypeScript, TailwindCSS, Recharts",
+          "platform": "React",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/store.png",
+        "title": "Store Premium",
+        "subTitle": "E-commerce, Moda Premium",
+        "details": {
+          "title": "E-commerce de Moda Premium",
+          "description": "Loja virtual com design minimalista e elegante, focada em produtos premium. Interface clean com grandes imagens de produtos, navegação intuitiva e experiência de compra premium. Destaques para lookbook interativo, zoom em produtos e checkout otimizado.",
+          "type": "E-commerce",
+          "langages": "Next.js, TypeScript, Stripe, TailwindCSS",
+          "platform": "Next.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/prime.png",
+        "title": "Prime Investments",
+        "subTitle": "Finanças, Investimentos",
+        "details": {
+          "title": "Portal de Investimentos Premium",
+          "description": "Portal sofisticado para empresa de investimentos com design premium em tons dourados e preto. Layout moderno com animações sutis, seções dinâmicas de serviços e área exclusiva para clientes. Inclui calculadoras financeiras e integração com APIs de mercado.",
+          "type": "Portal",
+          "langages": "Next.js, TypeScript, Framer Motion",
+          "platform": "Next.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/food.png",
+        "title": "Gourmet Express",
+        "subTitle": "Delivery, Gastronomia",
+        "details": {
+          "title": "Plataforma de Delivery Gourmet",
+          "description": "Sistema de delivery com foco em gastronomia premium. Interface elegante com fotos de alta qualidade, cardápios dinâmicos e sistema de avaliações. Recursos incluem rastreamento em tempo real, personalização de pedidos e programa de fidelidade.",
+          "type": "Plataforma",
+          "langages": "Next.js, TypeScript, Prisma, PostgreSQL",
+          "platform": "Next.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/TrafegoPago.png",
+        "title": "Marketing Pro",
+        "subTitle": "Marketing Digital",
+        "details": {
+          "title": "Landing Page de Marketing Digital",
+          "description": "Landing page de alta conversão com design moderno e seções dinâmicas. Apresenta casos de sucesso com dados reais, depoimentos em vídeo e formulário de contato otimizado. Animações suaves e call-to-actions estrategicamente posicionados.",
+          "type": "Landing Page",
+          "langages": "Next.js, TailwindCSS, Framer Motion",
+          "platform": "Next.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/sellphone.png",
+        "title": "TechStore",
+        "subTitle": "E-commerce, Tecnologia",
+        "details": {
+          "title": "E-commerce de Tecnologia",
+          "description": "Loja virtual especializada em smartphones e gadgets com design tecnológico e moderno. Sistema avançado de filtros, comparação de produtos e especificações técnicas detalhadas. Inclui reviews em vídeo e integração com múltiplos meios de pagamento.",
+          "type": "E-commerce",
+          "langages": "React, Node.js, MongoDB, Express",
+          "platform": "MERN Stack",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/maryanne.png",
+        "title": "Mary Anne Fashion",
+        "subTitle": "E-commerce, Moda Feminina",
+        "details": {
+          "title": "E-commerce de Moda Feminina",
+          "description": "Loja virtual sofisticada com foco em moda feminina premium. Design elegante com galeria de looks, provador virtual e recomendações personalizadas. Sistema de wishlist, grade de tamanhos inteligente e integração com influenciadoras.",
+          "type": "E-commerce",
+          "langages": "Next.js, TypeScript, Prisma, PostgreSQL",
+          "platform": "Next.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/magazine.png",
+        "title": "Digital Mag",
+        "subTitle": "Revista Digital, Lifestyle",
+        "details": {
+          "title": "Revista Digital Interativa",
+          "description": "Portal de conteúdo lifestyle com layout inspirado em revistas digitais. Sistema de blog avançado com categorias dinâmicas, área de membros e newsletters personalizadas. Inclui galeria de mídia interativa e integração com redes sociais.",
+          "type": "Portal",
+          "langages": "Next.js, MDX, TailwindCSS, Prisma",
+          "platform": "Next.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/LW.png",
+        "title": "LW Creative",
+        "subTitle": "Agência Digital, Portfolio",
+        "details": {
+          "title": "Website para Agência Criativa",
+          "description": "Site institucional com design arrojado e interativo para agência de marketing digital. Portfolio dinâmico com cases animados, página de serviços com micro-interações e sistema de orçamentos automatizado. Inclui blog de tendências e área de carreiras.",
           "type": "Website",
-          "langages": "PHP, HTML, CSS, JS",
-          "platform": "Laravel",
-          "country": "Brasil",
-          "url": "http://extrapecas.com"
+          "langages": "React, TailwindCSS, Framer Motion",
+          "platform": "React",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/bitcoin.jpg",
+        "title": "Crypto Analytics",
+        "subTitle": "Finanças, Criptomoedas",
+        "details": {
+          "title": "Plataforma de Análise Cripto",
+          "description": "Dashboard profissional para análise de criptomoedas com dados em tempo real. Gráficos avançados com indicadores técnicos, orderbook em tempo real e integração com principais exchanges. Sistema de alertas e portfolio tracking.",
+          "type": "Dashboard",
+          "langages": "React, TypeScript, WebSocket, D3.js",
+          "platform": "React",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/clinica.jpg",
+        "title": "MedCenter",
+        "subTitle": "Saúde, Gestão Médica",
+        "details": {
+          "title": "Sistema de Gestão para Clínicas",
+          "description": "Plataforma completa para gestão de clínicas médicas com agendamento online, prontuário eletrônico e gestão financeira. Interface intuitiva para médicos e pacientes, com lembretes automáticos e telemedicina integrada.",
+          "type": "Sistema Web",
+          "langages": "React, Node.js, PostgreSQL, WebRTC",
+          "platform": "React + Node.js",
+          "country": "Brasil"
+        }
+      },
+      {
+        "thumbUrl": "/images/projects/ativatox.png",
+        "title": "Ativatox Nutrition",
+        "subTitle": "E-commerce, Suplementos",
+        "details": {
+          "title": "E-commerce de Nutrição Esportiva",
+          "description": "Loja virtual especializada em suplementação esportiva com design dinâmico e esportivo. Sistema de recomendação baseado em objetivos, blog de nutrição esportiva e programa de cashback. Inclui área de consultoria nutricional online.",
+          "type": "E-commerce",
+          "langages": "Next.js, TypeScript, Stripe, Redis",
+          "platform": "Next.js",
+          "country": "Brasil"
         }
       }
-      
     ]
   },
   "service": {

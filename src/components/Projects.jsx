@@ -169,7 +169,7 @@ export default function Projects({ data }) {
                 data-aos="fade-up"
                 data-aos-duration="800"
                 data-aos-delay={index * 100}
-              >
+          >
                 <div 
                   className="project-card" 
                   style={{
@@ -303,7 +303,7 @@ export default function Projects({ data }) {
                                   color: '#64748b',
                                   fontSize: '16px'
                                 }}
-                              >
+                        >
                                 <Icon icon={iconName || 'mdi:code-tags'} />
                               </div>
                             );
@@ -335,7 +335,7 @@ export default function Projects({ data }) {
                         }}
                       >
                         {item.details?.platform || 'Web'}
-                      </span>
+                        </span>
                       
                       <button 
                         onClick={(e) => {
@@ -501,7 +501,7 @@ export default function Projects({ data }) {
                 zIndex: 10,
                 boxShadow: '0 2px 10px rgba(0,0,0,0.2)'
               }}
-            >
+              >
               <Icon icon="mdi:close" width="28" height="28" />
               </button>
             
@@ -520,7 +520,7 @@ export default function Projects({ data }) {
               />
               ) : (
                 <div style={{ padding: modalSize.padding }}>
-                  <Modal modalData={modalData} />
+                <Modal modalData={modalData} />
                 </div>
               )}
           </div>
