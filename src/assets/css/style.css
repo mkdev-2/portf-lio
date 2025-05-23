@@ -1,0 +1,180 @@
+/* Animações para o portfólio de tecnologia */
+
+/* Keyframes para animações */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gradientFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: -200% 0;
+  }
+  to {
+    background-position: 200% 0;
+  }
+}
+
+/* Criar animações para partículas flutuantes */
+@keyframes float-0 { 0% { transform: translate(0, 0); } 50% { transform: translate(10px, -10px); } 100% { transform: translate(0, 0); } }
+@keyframes float-1 { 0% { transform: translate(0, 0); } 50% { transform: translate(-15px, -5px); } 100% { transform: translate(0, 0); } }
+@keyframes float-2 { 0% { transform: translate(0, 0); } 50% { transform: translate(5px, -15px); } 100% { transform: translate(0, 0); } }
+@keyframes float-3 { 0% { transform: translate(0, 0); } 50% { transform: translate(-10px, -10px); } 100% { transform: translate(0, 0); } }
+@keyframes float-4 { 0% { transform: translate(0, 0); } 50% { transform: translate(15px, -5px); } 100% { transform: translate(0, 0); } }
+@keyframes float-5 { 0% { transform: translate(0, 0); } 50% { transform: translate(-5px, -10px); } 100% { transform: translate(0, 0); } }
+@keyframes float-6 { 0% { transform: translate(0, 0); } 50% { transform: translate(10px, -5px); } 100% { transform: translate(0, 0); } }
+@keyframes float-7 { 0% { transform: translate(0, 0); } 50% { transform: translate(-10px, -15px); } 100% { transform: translate(0, 0); } }
+@keyframes float-8 { 0% { transform: translate(0, 0); } 50% { transform: translate(5px, -5px); } 100% { transform: translate(0, 0); } }
+@keyframes float-9 { 0% { transform: translate(0, 0); } 50% { transform: translate(-8px, -12px); } 100% { transform: translate(0, 0); } }
+
+/* Efeitos de hover para botões e cards */
+.primary-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.primary-btn:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 15px rgba(63, 81, 181, 0.4) !important;
+}
+
+.secondary-btn {
+  transition: all 0.3s ease !important;
+}
+
+.secondary-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  transform: translateY(-3px) !important;
+}
+
+.project-card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+}
+
+.project-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.tech-icon {
+  transition: all 0.3s ease !important;
+}
+
+.tech-icon:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(63, 81, 181, 0.1) !important;
+  color: #3f51b5 !important;
+}
+
+/* Estilo para a seção hero */
+.hero-cta a {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-cta .primary-btn:after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(30deg);
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.hero-cta .primary-btn:hover:after {
+  animation: shine 1.5s ease-in-out;
+  opacity: 1;
+}
+
+/* Estilo gradiente para textos */
+.gradient-text {
+  background: linear-gradient(90deg, #3f51b5, #2196f3);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientFlow 3s ease infinite;
+}
+
+/* Efeito fade-in para elementos ao fazer scroll */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Melhor visualização em dispositivos móveis */
+@media (max-width: 768px) {
+  .section {
+    padding: 60px 0 !important;
+  }
+  
+  h2 {
+    font-size: 28px !important;
+  }
+  
+  .project-card {
+    margin-bottom: 20px;
+  }
+} 

@@ -1,0 +1,56 @@
+# Dependências
+/node_modules
+/.pnp
+.pnp.js
+
+# Testes
+/coverage
+
+# Produção
+/build
+/dist
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos do editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos do sistema operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos temporários
+*.log
+*.tmp
+*.temp
+
+# Cache
+.npm
+.eslintcache
+.cache
+.parcel-cache
+
+# Diretórios específicos deste projeto
+# Adicione aqui quaisquer diretórios específicos do seu projeto que não devem ser versionados
+
+# Arquivos de currículo e docs pessoais
+Currículo*
+*.pdf 
